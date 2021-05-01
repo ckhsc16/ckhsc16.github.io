@@ -1,0 +1,158 @@
+html {
+    font-family: 'Noto Sans TC', serif;
+    max-width: 480px;
+    min-width: 370px;
+    margin: 0px auto;
+}
+
+#title {
+    padding-top: 0;
+    padding-bottom: 10px;
+    height: 180px;
+}
+
+#img {
+    float: left; 
+    margin: 0 15px 15px 0; 
+    width: 150px; 
+    clear: both;
+}
+
+#ckhsc {
+    padding-top: 50px;
+    text-align: center;
+    font-size: 100%;
+    margin: 0;
+    color: rgb(30, 108, 142);
+    font-weight: 400;
+}
+
+#unnatural {
+    padding-top: 5px;
+    text-align: center;
+    font-size: 60px;
+    height: 120px;
+    color: rgb(30, 108, 142);
+    margin: 0;
+}
+
+#input {
+    padding-top: 0;
+    margin: 0px auto;
+}
+
+.header {
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(65, 68, 75);
+}
+
+.header2 {
+    text-align: center;
+    font-size: 20px;
+    color: rgb(65, 68, 75);
+    padding-bottom: 0;
+    margin: 0;
+}
+
+.header3 {
+    padding-top: 5px;
+    text-align: center;
+    font-size: 10px;
+    color: rgb(65, 68, 75);
+    margin: 0
+}
+
+#box {
+    padding-top: 30px;
+    margin: 0px auto;
+    align-content: center;
+}
+
+#name {
+    width: 150px;
+    margin: 0 auto;
+    padding:5px 15px; 
+    background:#ccc; 
+    border:0 none;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type="button"] {
+    margin-top: 10px;
+    background: rgb(30, 108, 142);
+    color: #FFF;
+    border: none;
+    text-align: center;
+}
+
+#result {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#r {
+    color: rgb(65, 68, 75);
+}
+
+#r1, #r2 {
+    color: rgb(65, 68, 75);
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0;
+}
+
+a {
+    padding-top: 0;
+    color: rgb(30, 108, 142);
+    text-align: center;
+    text-decoration: none;
+    margin: 0;
+}
+
+#back {
+    margin-top: 31px;
+}
+
+.present {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    padding: 20px 10px;
+    height: 200px;
+}
+
+.photo_holder {
+    float: left;
+    width: 120px;
+    margin: 0px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 5px;
+    padding-right: 25px;
+}
+
+.person {
+    border-radius: 50%;
+    width: 120px;
+}
+
+.person_name {
+    padding-top: 10px;
+    color: rgb(65, 68, 75);
+    font-size: 30px;
+    margin: 0px;
+    font-weight: 700;
+}
+
+.person_title {
+    padding-top: 10px;
+    margin: 0px;
+    color: rgb(65, 68, 75);
+    padding-bottom: 10px;
+}
