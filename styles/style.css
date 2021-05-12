@@ -103,7 +103,7 @@ input[type="button"] {
     padding-top: 15px;
     padding-bottom: 5px;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 25px;
     margin: 0;
 }
 
@@ -113,6 +113,10 @@ a {
     text-align: center;
     text-decoration: none;
     margin: 0;
+}
+
+#a, #b {
+    font-size: 18px;
 }
 
 #back {
