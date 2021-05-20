@@ -1,4 +1,5 @@
-import csv, json
+import csv
+import json
 from os import read
 
 csvPath = '/Users/chingwei/Project/ckhsc16_unnatural/res/list.csv'
