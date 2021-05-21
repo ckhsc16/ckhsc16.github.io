@@ -1,3 +1,5 @@
+<meta charset="UTF-8">
+
 # CKHSC 16th 成發：《不自然》入場券系統
 
 [ckhsc16.github.io](https://github.com/ckhsc16/ckhsc16.github.io)
