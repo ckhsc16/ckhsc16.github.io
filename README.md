@@ -41,7 +41,7 @@ or
    }
    ```
 
-3. 將檔案命名為 list.json 放在`scripts`資料夾
+3. 將檔案命名為`list.json`放在`scripts`資料夾
 
 #### 分場頁面
 
