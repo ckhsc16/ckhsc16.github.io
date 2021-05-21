@@ -2,7 +2,7 @@
 
 # CKHSC 16th 成發：《不自然》入場券系統
 
-[ckhsc16.github.io](https://github.com/ckhsc16/ckhsc16.github.io)
+[ckhsc16.github.io](https://ckhsc16.github.io)
 
 以下是成發入場系統的使用說明，今天因為疫情的關係我們沒辦法辦成發，希望學弟能夠順利。<br>
 在姓名的地方輸入`A`、`B`、`C`或`D`，可以看到網頁如何運作，以及連結到各分場的介紹分頁。
