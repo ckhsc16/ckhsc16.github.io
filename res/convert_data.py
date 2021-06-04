@@ -2,8 +2,8 @@ import csv
 import json
 from os import read
 
-csvPath = '/Users/chingwei/Project/ckhsc16_unnatural/res/list.csv'
-jsonPath = '/Users/chingwei/Project/ckhsc16_unnatural/scripts/list.json'
+csvPath = '/Users/chingwei/Projects/ckhsc16_unnatural/res/list.csv'
+jsonPath = '/Users/chingwei/Projects/ckhsc16_unnatural/scripts/list.json'
 
 with open(csvPath, 'r') as f:
     reader = csv.reader(f)
