@@ -1,51 +1,305 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 	<head>
-		<meta charset="utf-8" />
-		<meta
-			name="viewport"
-			content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
-		/>
-		<title>建中人社成發《不自然》－入場券</title>
-		<link href="styles/style.css" rel="stylesheet" type="text/css" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap"
-			rel="stylesheet"
-		/>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>建中人社 16th 成發網站</title>
+		<link rel="stylesheet" href="/styles/style.css" />
+		<script src="/scripts/script.js" defer></script>
 	</head>
-
 	<body>
-		<div id="title">
-			<div id="img">
-				<img src="/images/main.png" width="150px" style="padding-top: 10px" />
+		<nav>
+			<div class="nav-content">
+				<div class="nav-title">
+					<img src="/images/logo.png" alt="" />
+					<div class="nav-title-text">
+						<p>建中人社<br />十六屆成發</p>
+						<h2>不自然</h2>
+					</div>
+				</div>
+				<div class="toggle-btn"></div>
+				<div class="nav-links">
+					<ul>
+						<li><a href="#">專題介紹</a></li>
+						<li><a href="/doc/book.pdf">成發手冊</a></li>
+						<li><a href="/tickets/">入場券</a></li>
+					</ul>
+				</div>
 			</div>
-			<h2 id="ckhsc">建中人社第十六屆成發</h2>
-			<h1 id="unnatural">不自然</h1>
-		</div>
-
-		<div id="input">
-			<p class="header">人社班全體同學歡迎您的蒞臨：</p>
-			<p class="header2">請輸入姓名以取得入場券</p>
-			<p class="header3">（註：家長請輸入「OOO（同學姓名）家長」)</p>
-			<div id="box">
-				<center>
-					<input type="TEXT" id="name" value="" placeholder="請輸入姓名" />
-				</center>
-				<center><input type="BUTTON" value="確定" onClick="main()" /></center>
+		</nav>
+		<div class="content">
+			<div class="scroll-bar">
+				<ul>
+					<li><a href="#A" class="scroll-bar-links">A分場</a></li>
+					<li><a href="#B" class="scroll-bar-links">B分場</a></li>
+					<li><a href="#C" class="scroll-bar-links">C分場</a></li>
+					<li><a href="#D" class="scroll-bar-links">D分場</a></li>
+				</ul>
+			</div>
+			<header>
+				<img src="/images/header.png" alt="" />
+				<span class="anchor" id="A"></span>
+			</header>
+			<div class="content-description">
+				<h1>A分場</h1>
+				<div class="split">
+					<div class="container">
+						<div class="container-left">
+							<img src="/images/A1.jpg" alt="" />
+							<div class="btn">
+								<p>論文介紹<span class="indicator"></span></p>
+							</div>
+						</div>
+						<div class="container-right">
+							<h3>黃璿祐</h3>
+							<p>從誤解到同理──設計思考如何改變學生對無家者的認知與態度</p>
+							<a href="/doc/A1.pdf">論文全文</a>
+							<a href="#">成發影片</a>
+						</div>
+					</div>
+					<div class="container">
+						<div class="container-left">
+							<img src="/images/A2.jpg" alt="" />
+							<div class="btn">
+								<p>論文介紹<span class="indicator"></span></p>
+							</div>
+						</div>
+						<div class="container-right">
+							<h3>陳柏霖</h3>
+							<p>十二年國教課綱高中生自主學習之研究──以三校為例</p>
+							<a href="/doc/A2.pdf">論文全文</a>
+							<a href="#">成發影片</a>
+						</div>
+					</div>
+				</div>
+				<div class="split">
+					<div class="container">
+						<div class="container-left">
+							<img src="/images/A3.jpg" alt="" />
+							<div class="btn">
+								<p>論文介紹<span class="indicator"></span></p>
+							</div>
+						</div>
+						<div class="container-right">
+							<h3>李承翰</h3>
+							<p>臺北市高中生的 Instagram 使用與同儕關係的關聯</p>
+							<a href="/doc/A3.pdf">論文全文</a>
+							<a href="#">成發影片</a>
+						</div>
+					</div>
+					<div class="container">
+						<div class="container-left">
+							<img src="/images/A4.jpg" alt="" />
+							<div class="btn">
+								<p>論文介紹<span class="indicator"></span></p>
+							</div>
+						</div>
+						<div class="container-right">
+							<h3>林柏宇</h3>
+							<p>資訊可信度與涉入程度之關聯──以建中生為例</p>
+							<a href="/doc/A4.pdf">論文全文</a>
+							<a href="#">成發影片</a>
+						</div>
+					</div>
+				</div>
+				<span class="anchor" id="B"></span>
+				<h1>B分場</h1>
+				<div class="split">
+					<div class="container">
+						<div class="container-left">
+							<img src="/images/B1.jpg" alt="" />
+							<div class="btn">
+								<p>論文介紹<span class="indicator"></span></p>
+							</div>
+						</div>
+						<div class="container-right">
+							<h3>侯又豪</h3>
+							<p>「異男忘」與男同志身份認同之關係</p>
+							<a href="/doc/B1.pdf">論文全文</a>
+							<a href="#">成發影片</a>
+						</div>
+					</div>
+					<div class="container">
+						<div class="container-left">
+							<img src="/images/B2.jpg" alt="" />
+							<div class="btn">
+								<p>論文介紹<span class="indicator"></span></p>
+							</div>
+						</div>
+						<div class="container-right">
+							<h3>廖奇典</h3>
+							<p>臺灣基督教協談制度之探討</p>
+							<a href="/doc/B2.pdf">論文全文</a>
+							<a href="#">成發影片</a>
+						</div>
+					</div>
+				</div>
+				<div class="split">
+					<div class="container">
+						<div class="container-left">
+							<img src="/images/B3.jpg" alt="" />
+							<div class="btn">
+								<p>論文介紹<span class="indicator"></span></p>
+							</div>
+						</div>
+						<div class="container-right">
+							<h3>李義品</h3>
+							<p>從實務判決看我國死者人格權之發展現況</p>
+							<a href="/doc/B3.pdf">論文全文</a>
+							<a href="#">成發影片</a>
+						</div>
+					</div>
+					<div class="container">
+						<div class="container-left">
+							<img src="/images/B4.jpg" alt="" />
+							<div class="btn">
+								<p>論文介紹<span class="indicator"></span></p>
+							</div>
+						</div>
+						<div class="container-right">
+							<h3>江驊恩</h3>
+							<p>資臺北市立建國中學學生自治組織運作之現況與困境</p>
+							<a href="/doc/B4.pdf">論文全文</a>
+							<a href="#">成發影片</a>
+						</div>
+					</div>
+				</div>
+				<span class="anchor" id="C"></span>
+				<h1>C分場</h1>
+				<div class="split">
+					<div class="container">
+						<div class="container-left">
+							<img src="/images/C1.jpg" alt="" />
+							<div class="btn">
+								<p>論文介紹<span class="indicator"></span></p>
+							</div>
+						</div>
+						<div class="container-right">
+							<h3>陳昭安</h3>
+							<p>
+								電子遊戲對傳統玩具產業營收之影響關係探究──以樂高等九家代表公司分析之
+							</p>
+							<a href="/doc/C1.pdf">論文全文</a>
+							<a href="#">成發影片</a>
+						</div>
+					</div>
+					<div class="container">
+						<div class="container-left">
+							<img src="/images/C2.jpg" alt="" />
+							<div class="btn">
+								<p>論文介紹<span class="indicator"></span></p>
+							</div>
+						</div>
+						<div class="container-right">
+							<h3>林昱甫</h3>
+							<p>從言論自由與仇恨性言論之關係探討新竹市光復高中納粹事件</p>
+							<a href="/doc/C2.pdf">論文全文</a>
+							<a href="#">成發影片</a>
+						</div>
+					</div>
+				</div>
+				<div class="split">
+					<div class="container">
+						<div class="container-left">
+							<img src="/images/C3.jpg" alt="" />
+							<div class="btn">
+								<p>論文介紹<span class="indicator"></span></p>
+							</div>
+						</div>
+						<div class="container-right">
+							<h3>朱善煜</h3>
+							<p>臺灣地方創生的空間分布之研究</p>
+							<a href="/doc/C3.pdf">論文全文</a>
+							<a href="#">成發影片</a>
+						</div>
+					</div>
+					<div class="container">
+						<div class="container-left">
+							<img src="/images/C4.jpg" alt="" />
+							<div class="btn">
+								<p>論文介紹<span class="indicator"></span></p>
+							</div>
+						</div>
+						<div class="container-right">
+							<h3>林博堯</h3>
+							<p>從後台理論看弱勢族群的空間行為──以台北車站的無家者為例</p>
+							<a href="/doc/C4.pdf">論文全文</a>
+							<a href="#">成發影片</a>
+						</div>
+					</div>
+				</div>
+				<span class="anchor" id="D"></span>
+				<h1>D分場</h1>
+				<div class="split">
+					<div class="container">
+						<div class="container-left">
+							<img src="/images/D1.jpg" alt="" />
+							<div class="btn">
+								<p>論文介紹<span class="indicator"></span></p>
+							</div>
+						</div>
+						<div class="container-right">
+							<h3>曾仲遠</h3>
+							<p>108 課綱與建中學生社團選擇的關聯</p>
+							<a href="/doc/D1.pdf">論文全文</a>
+							<a href="#">成發影片</a>
+						</div>
+					</div>
+					<div class="container">
+						<div class="container-left">
+							<img src="/images/D2.jpg" alt="" />
+							<div class="btn">
+								<p>論文介紹<span class="indicator"></span></p>
+							</div>
+						</div>
+						<div class="container-right">
+							<h3>方博弘</h3>
+							<p>從《論公民》到《利維坦》──霍布斯政治論述的改變</p>
+							<a href="/doc/D2.pdf">論文全文</a>
+							<a href="#">成發影片</a>
+						</div>
+					</div>
+				</div>
+				<div class="split">
+					<div class="container">
+						<div class="container-left">
+							<img src="/images/D3.jpg" alt="" />
+							<div class="btn">
+								<p>論文介紹<span class="indicator"></span></p>
+							</div>
+						</div>
+						<div class="container-right">
+							<h3>黃靖緯</h3>
+							<p>
+								為何而反？──從《聲明》、《基本法》、《逃犯條例》與《國安法》看香港反送中運動
+							</p>
+							<a href="/doc/D3.pdf">論文全文</a>
+							<a href="#">成發影片</a>
+						</div>
+					</div>
+					<div class="container">
+						<div class="container-left">
+							<img src="/images/D4.jpg" alt="" />
+							<div class="btn">
+								<p>論文介紹<span class="indicator"></span></p>
+							</div>
+						</div>
+						<div class="container-right">
+							<h3>王紹安</h3>
+							<p>從愛情色彩理論分析徐志摩對陸小曼的愛情</p>
+							<a href="/doc/D4.pdf">論文全文</a>
+							<a href="#">成發影片</a>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
-
-		<div id="result" style="display: none">
-			<p id="r"></p>
-			<p id="r1"></p>
-			<center><a id="a" href="javascript: link1_href()"></a></center>
-			<p id="r2"></p>
-			<center><a id="b" href="javascript: link2_href()"></a></center>
-			<center>
-				<input type="button" value="回上頁" onClick="showInput()" id="back" />
-			</center>
-		</div>
+		<footer>
+			<div class="footer-content">
+				<p>網頁設計：黃靖緯</p>
+				<p>建中人社班 2021</p>
+			</div>
+		</footer>
 	</body>
-
-	<script type="text/javascript" src="/scripts/main.js"></script>
 </html>

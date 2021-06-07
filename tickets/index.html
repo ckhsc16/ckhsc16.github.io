@@ -1,0 +1,51 @@
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+		/>
+		<title>建中人社成發《不自然》－入場券</title>
+		<link href="../styles/tickets.css" rel="stylesheet" type="text/css" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+
+	<body>
+		<div id="title">
+			<div id="img">
+				<img src="/images/main.png" width="150px" style="padding-top: 10px" />
+			</div>
+			<h2 id="ckhsc">建中人社第十六屆成發</h2>
+			<h1 id="unnatural">不自然</h1>
+		</div>
+
+		<div id="input">
+			<p class="header">人社班全體同學歡迎您的蒞臨：</p>
+			<p class="header2">請輸入姓名以取得入場券</p>
+			<p class="header3">（註：家長請輸入「OOO（同學姓名）家長」)</p>
+			<div id="box">
+				<center>
+					<input type="TEXT" id="name" value="" placeholder="請輸入姓名" />
+				</center>
+				<center><input type="BUTTON" value="確定" onClick="main()" /></center>
+			</div>
+		</div>
+
+		<div id="result" style="display: none">
+			<p id="r"></p>
+			<p id="r1"></p>
+			<center><a id="a" href="javascript: link1_href()"></a></center>
+			<p id="r2"></p>
+			<center><a id="b" href="javascript: link2_href()"></a></center>
+			<center>
+				<input type="button" value="回上頁" onClick="showInput()" id="back" />
+			</center>
+		</div>
+	</body>
+
+	<script type="text/javascript" src="../scripts/tickets.js"></script>
+</html>
