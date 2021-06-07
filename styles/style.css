@@ -355,6 +355,12 @@ header img {
 	}
 }
 
+@media (max-width: 320px) {
+	.content-description h1 {
+		font-size: 3em;
+	}
+}
+
 h1 a,
 h1 a:visited {
 	vertical-align: middle;
@@ -363,6 +369,13 @@ h1 a:visited {
 	color: var(--clr-accent-400);
 	display: inline;
 	padding-bottom: 0.5rem;
+}
+
+@media (max-width: 420px) {
+	h1 a,
+	h1 a:visited {
+		font-size: 1.25rem;
+	}
 }
 
 .container img {

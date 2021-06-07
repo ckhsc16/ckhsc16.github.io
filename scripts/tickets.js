@@ -46,8 +46,8 @@ function main() {
 	link2.innerHTML = ""
 
 	try {
-		first_link = "/pages/" + data[input][1] + "1.html"
-		second_link = "/pages/" + data[input][2] + "2.html"
+		first_link = "../#" + data[input][1]
+		second_link = "../#" + data[input][2]
 		result.innerHTML =
 			data[input][0] +
 			"｜" +
