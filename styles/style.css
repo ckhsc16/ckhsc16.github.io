@@ -117,13 +117,14 @@ nav {
 .toggle-btn {
 	display: none;
 	position: absolute;
-	top: 2.5rem;
+	top: 2.75rem;
 	right: 5vw;
 	width: 2rem;
 	height: 5px;
 	background-color: var(--clr-primary-400);
 	z-index: 999;
-	transform-origin: right center;
+	transform-origin: center;
+	transition: width 0.3s ease;
 }
 
 .toggle-btn::before {
@@ -148,6 +149,10 @@ nav {
 	background-color: var(--clr-primary-400);
 	transition: all 0.3s ease;
 	transform-origin: right center;
+}
+
+.toggle-btn {
+	transform: scale(0.9);
 }
 
 .toggle-btn.active {
@@ -342,7 +347,9 @@ nav {
 }
 
 header img {
-	padding: 5vw;
+	width: 100%;
+	padding: 8vw;
+	margin: 0 auto;
 }
 
 @media (max-width: 768px) {
