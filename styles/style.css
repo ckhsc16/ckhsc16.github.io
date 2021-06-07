@@ -355,6 +355,16 @@ header img {
 	}
 }
 
+h1 a,
+h1 a:visited {
+	vertical-align: middle;
+	font-size: 1.5rem;
+	text-decoration: none;
+	color: var(--clr-accent-400);
+	display: inline;
+	padding-bottom: 0.5rem;
+}
+
 .container img {
 	border-radius: 50%;
 }
