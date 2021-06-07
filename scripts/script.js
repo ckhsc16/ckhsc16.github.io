@@ -20,6 +20,17 @@ const D = document.getElementById("D")
 
 toggleBtn.addEventListener("click", () => {
 	navLinks.classList.toggle("active")
+	toggleBtn.classList.toggle("active")
+})
+
+const des = document.getElementsByClassName("description")
+const indicator = document.getElementsByClassName("indicator")
+
+document.querySelectorAll(".btn").forEach(function callback(item, i) {
+	item.addEventListener("click", () => {
+		des[i].classList.toggle("active")
+		indicator[i].classList.toggle("active")
+	})
 })
 
 window.addEventListener("scroll", () => {
