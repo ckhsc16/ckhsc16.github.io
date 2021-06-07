@@ -504,7 +504,7 @@ h1 a:visited {
 .indicator::before {
 	content: "";
 	width: 1.5px;
-	height: 5.7px;
+	height: 5.45px;
 	top: 5px;
 	right: 5px;
 	transform: rotate(45deg);
@@ -517,7 +517,7 @@ h1 a:visited {
 .indicator::after {
 	content: "";
 	width: 1.5px;
-	height: 5.7px;
+	height: 5.45px;
 	top: 5px;
 	left: 5px;
 	transform: rotate(-45deg);
