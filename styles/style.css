@@ -450,7 +450,9 @@ h1 a:visited {
 
 @media (max-width: 420px) {
 	.btn,
-	.btn * {
+	.btn *,
+	.btn *::before,
+	.btn *::after {
 		transform: scale(0.95);
 	}
 }
