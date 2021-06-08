@@ -1,3 +1,33 @@
+// Mobile Navbar
+const toggleBtn = document.getElementsByClassName("toggle-btn")[0]
+const navLinks = document.getElementsByClassName("nav-links")[0]
+const scrollbar = document.getElementsByClassName("scroll-bar-links")
+
+toggleBtn.addEventListener("click", () => {
+	navLinks.classList.toggle("active")
+	toggleBtn.classList.toggle("active")
+})
+
+// Description Show up
+const des = document.getElementsByClassName("description")
+const indicator = document.getElementsByClassName("indicator")
+const split = document.getElementsByClassName("split")
+
+document.querySelectorAll(".btn").forEach(function callback(item, i) {
+	item.addEventListener("click", () => {
+		des[i].classList.toggle("active")
+		indicator[i].classList.toggle("active")
+		var split_index = parseInt(i / 2)
+		split[split_index].classList.toggle("active")
+	})
+})
+
+// Scroll Highlight
+const A = document.getElementById("A")
+const B = document.getElementById("B")
+const C = document.getElementById("C")
+const D = document.getElementById("D")
+
 function getPosition(element) {
 	var x = 0
 	var y = 0
@@ -9,29 +39,6 @@ function getPosition(element) {
 
 	return { x: x, y: y - 5 }
 }
-
-const toggleBtn = document.getElementsByClassName("toggle-btn")[0]
-const navLinks = document.getElementsByClassName("nav-links")[0]
-const scrollbar = document.getElementsByClassName("scroll-bar-links")
-const A = document.getElementById("A")
-const B = document.getElementById("B")
-const C = document.getElementById("C")
-const D = document.getElementById("D")
-
-toggleBtn.addEventListener("click", () => {
-	navLinks.classList.toggle("active")
-	toggleBtn.classList.toggle("active")
-})
-
-const des = document.getElementsByClassName("description")
-const indicator = document.getElementsByClassName("indicator")
-
-document.querySelectorAll(".btn").forEach(function callback(item, i) {
-	item.addEventListener("click", () => {
-		des[i].classList.toggle("active")
-		indicator[i].classList.toggle("active")
-	})
-})
 
 window.addEventListener("scroll", () => {
 	const scrollHeight = document.documentElement.scrollHeight
