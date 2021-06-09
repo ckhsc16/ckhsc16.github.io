@@ -653,9 +653,13 @@ h1 a:visited {
 	line-height: 1.7;
 }
 
+.description p + p {
+	padding-top: 0;
+}
+
 @media (max-width: 768px) {
 	.description p {
-		padding: 1rem 0.5rem;
+		padding: 1.5rem 1rem;
 	}
 }
 
