@@ -384,7 +384,7 @@ header img {
 	position: relative;
 	width: 90%;
 	height: 0;
-	padding-bottom: 42.85%;
+	padding-bottom: 38.565%;
 }
 
 .video169 {
@@ -392,7 +392,20 @@ header img {
 	position: relative;
 	width: 90%;
 	height: 0;
-	padding-bottom: 56.25%;
+	padding-bottom: 50.625%;
+}
+
+@media (max-width: 768px) {
+	.video219,
+	.video169 {
+		width: 100%;
+	}
+	.video219 {
+		padding-bottom: 42.85%;
+	}
+	.video169 {
+		padding-bottom: 56.25%;
+	}
 }
 
 iframe {
