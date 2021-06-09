@@ -379,6 +379,30 @@ header img {
 	font-size: 4rem;
 }
 
+.video219 {
+	margin: 0 auto;
+	position: relative;
+	width: 90%;
+	height: 0;
+	padding-bottom: 42.85%;
+}
+
+.video169 {
+	margin: 0 auto;
+	position: relative;
+	width: 90%;
+	height: 0;
+	padding-bottom: 58.25%;
+}
+
+iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
 @media (max-width: 420px) {
 	.content-description h1 {
 		font-size: 3.5rem;
