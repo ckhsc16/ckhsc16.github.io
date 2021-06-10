@@ -27,6 +27,7 @@ const A = document.getElementById("A")
 const B = document.getElementById("B")
 const C = document.getElementById("C")
 const D = document.getElementById("D")
+const END = document.getElementById("END")
 
 function getPosition(element) {
 	var x = 0
@@ -47,6 +48,14 @@ window.addEventListener("scroll", () => {
 	var positionB = getPosition(B)
 	var positionC = getPosition(C)
 	var positionD = getPosition(D)
+	var positionEND = getPosition(END)
+
+	if (scrolled < positionA.y) {
+		scrollbar[0].classList.remove("active")
+		scrollbar[1].classList.remove("active")
+		scrollbar[2].classList.remove("active")
+		scrollbar[3].classList.remove("active")
+	}
 
 	if (scrolled > positionA.y && scrolled < positionB.y) {
 		scrollbar[0].classList.add("active")
@@ -69,8 +78,15 @@ window.addEventListener("scroll", () => {
 		scrollbar[3].classList.remove("active")
 	}
 
-	if (scrolled > positionD.y) {
+	if (scrolled > positionD.y && scrolled < positionEND.y) {
 		scrollbar[3].classList.add("active")
+		scrollbar[0].classList.remove("active")
+		scrollbar[1].classList.remove("active")
+		scrollbar[2].classList.remove("active")
+	}
+
+	if (scrolled > positionEND.y) {
+		scrollbar[3].classList.remove("active")
 		scrollbar[0].classList.remove("active")
 		scrollbar[1].classList.remove("active")
 		scrollbar[2].classList.remove("active")
