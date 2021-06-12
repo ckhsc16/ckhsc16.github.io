@@ -287,7 +287,7 @@ nav {
 
 @media (min-width: 768px) {
 	.scroll-bar a {
-		transition: all 0.1s ease;
+		transition: all 50ms linear;
 	}
 	.scroll-bar a.active {
 		color: var(--clr-primary-100);
