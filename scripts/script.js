@@ -92,3 +92,8 @@ window.addEventListener("scroll", () => {
 		scrollbar[2].classList.remove("active")
 	}
 })
+
+// Scroll Behavior
+function scrollTo(elementId) {
+	document.getElementById(elementId).scrollIntoView({ behavior: "smooth" })
+}

@@ -20,7 +20,6 @@ body {
 	padding: 0;
 	position: relative;
 	scroll-behavior: smooth;
-	-webkit-overflow-scrolling: touch;
 }
 
 h1,
@@ -287,6 +286,9 @@ nav {
 }
 
 @media (min-width: 768px) {
+	.scroll-bar a {
+		transition: all 0.1s ease;
+	}
 	.scroll-bar a.active {
 		color: var(--clr-primary-100);
 		background-color: var(--clr-primary-400);
