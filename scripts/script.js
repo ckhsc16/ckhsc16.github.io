@@ -55,6 +55,7 @@ window.addEventListener("scroll", () => {
 		scrollbar[1].classList.remove("active")
 		scrollbar[2].classList.remove("active")
 		scrollbar[3].classList.remove("active")
+		return
 	}
 
 	if (scrolled > positionA.y && scrolled < positionB.y) {
@@ -62,6 +63,7 @@ window.addEventListener("scroll", () => {
 		scrollbar[1].classList.remove("active")
 		scrollbar[2].classList.remove("active")
 		scrollbar[3].classList.remove("active")
+		return
 	}
 
 	if (scrolled > positionB.y && scrolled < positionC.y) {
@@ -69,6 +71,7 @@ window.addEventListener("scroll", () => {
 		scrollbar[0].classList.remove("active")
 		scrollbar[2].classList.remove("active")
 		scrollbar[3].classList.remove("active")
+		return
 	}
 
 	if (scrolled > positionC.y && scrolled < positionD.y) {
@@ -76,6 +79,7 @@ window.addEventListener("scroll", () => {
 		scrollbar[0].classList.remove("active")
 		scrollbar[1].classList.remove("active")
 		scrollbar[3].classList.remove("active")
+		return
 	}
 
 	if (scrolled > positionD.y && scrolled < positionEND.y) {
@@ -83,6 +87,7 @@ window.addEventListener("scroll", () => {
 		scrollbar[0].classList.remove("active")
 		scrollbar[1].classList.remove("active")
 		scrollbar[2].classList.remove("active")
+		return
 	}
 
 	if (scrolled > positionEND.y) {
@@ -90,6 +95,7 @@ window.addEventListener("scroll", () => {
 		scrollbar[0].classList.remove("active")
 		scrollbar[1].classList.remove("active")
 		scrollbar[2].classList.remove("active")
+		return
 	}
 })
 
