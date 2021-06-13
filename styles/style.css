@@ -418,19 +418,6 @@ iframe,
 	width: 100%;
 	height: 100%;
 	max-width: 100%;
-	display: none;
-}
-
-@media (max-width: 768px) {
-	.iframe {
-		display: block;
-	}
-}
-
-@media (min-width: 768px) {
-	iframe {
-		display: block;
-	}
 }
 
 @media (max-width: 420px) {
