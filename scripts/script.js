@@ -18,7 +18,16 @@ document.querySelectorAll(".btn").forEach(function callback(item, i) {
 		des[i].classList.toggle("active")
 		indicator[i].classList.toggle("active")
 		var split_index = parseInt(i / 2)
-		split[split_index].classList.toggle("active")
+		if (i / 2 != split_index) {
+			if (des[i - 1].classList.contains("active") === false) {
+				split[split_index].classList.toggle("active")
+			}
+		}
+		if (i / 2 === split_index) {
+			if (des[i + 1].classList.contains("active") === false) {
+				split[split_index].classList.toggle("active")
+			}
+		}
 	})
 })
 
