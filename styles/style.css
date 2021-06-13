@@ -206,7 +206,7 @@ nav {
 	color: var(--clr-primary-500);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 930px) {
 	.nav-links {
 		display: none;
 	}
