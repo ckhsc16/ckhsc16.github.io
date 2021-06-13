@@ -62,9 +62,13 @@
 
 		<!-- Stylesheets-->
 		<link rel="stylesheet" href="/styles/style.css" />
+		<link rel="stylesheet" href="/styles/lite-yt-embed.css" />
 
 		<!-- Change Scroll Behavior js -->
 		<script defer src="/scripts/smoothscroll.min.js"></script>
+
+		<!-- LiteYTEmbed -->
+		<script defer src="/scripts/lite-yt-embed.js"></script>
 
 		<!-- Main js -->
 		<script defer src="/scripts/script.js"></script>
@@ -120,13 +124,11 @@
 			<div class="content-description">
 				<h1>開幕影片</h1>
 				<div class="video219">
-					<iframe
-						src="https://www.youtube.com/embed/r_TqmfkxzDc"
-						title="YouTube video player"
-						frameborder="0"
-						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-						allowfullscreen
-					></iframe>
+					<lite-youtube
+						class="iframe"
+						videoid="r_TqmfkxzDc"
+						playlabel="播放：建中人社成發開場影片"
+					></lite-youtube>
 				</div>
 				<span class="anchor" id="A"></span>
 				<h1>A分場 <a href="#">分場播放清單</a></h1>
@@ -537,13 +539,11 @@
 				</div>
 				<h1 id="END">閉幕影片</h1>
 				<div class="video169">
-					<iframe
-						src="https://www.youtube.com/embed/VgvlbXctFeg"
-						title="YouTube video player"
-						frameborder="0"
-						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-						allowfullscreen
-					></iframe>
+					<lite-youtube
+						class="iframe"
+						videoid="VgvlbXctFeg"
+						playlabel="播放：建中人社成發閉幕影片"
+					></lite-youtube>
 				</div>
 			</div>
 		</div>
