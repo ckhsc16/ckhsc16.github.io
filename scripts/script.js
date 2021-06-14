@@ -64,15 +64,19 @@ window.addEventListener("scroll", () => {
 
 	if (scrolled > positionA.y && scrolled < positionB.y) {
 		scrollbar[0].classList.add("active")
+		return
 	}
 	if (scrolled > positionB.y && scrolled < positionC.y) {
 		scrollbar[1].classList.add("active")
+		return
 	}
 	if (scrolled > positionC.y && scrolled < positionD.y) {
 		scrollbar[2].classList.add("active")
+		return
 	}
 	if (scrolled > positionD.y && scrolled < positionEND.y) {
 		scrollbar[3].classList.add("active")
+		return
 	}
 })
 
