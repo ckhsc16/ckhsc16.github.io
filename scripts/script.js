@@ -60,7 +60,6 @@ window.addEventListener("scroll", () => {
 
 	document.querySelectorAll(".scroll-bar-links").forEach((item) => {
 		item.classList.remove("active")
-		console.log("Clear")
 	})
 
 	if (scrolled > positionA.y && scrolled < positionB.y) {
