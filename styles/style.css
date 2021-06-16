@@ -55,6 +55,12 @@ nav {
 	margin: 0 auto;
 }
 
+@media (min-width: 1500px) {
+	.nav-content {
+		padding: 0 75px;
+	}
+}
+
 .nav-title,
 .nav-title-text {
 	display: flex;
@@ -362,6 +368,13 @@ header img {
 	}
 }
 
+@media (min-width: 1500px) {
+	header img {
+		padding-left: 120px;
+		padding-right: 120px;
+	}
+}
+
 .anchor {
 	display: block;
 	padding-bottom: 4rem;
@@ -375,6 +388,12 @@ header img {
 
 .content-description {
 	padding: 0 5vw;
+}
+
+@media (min-width: 1500px) {
+	.content-description {
+		padding: 0 75px;
+	}
 }
 
 .content-description h1 {
