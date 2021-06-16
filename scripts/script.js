@@ -12,7 +12,7 @@ const des = document.getElementsByClassName("description")
 const indicator = document.getElementsByClassName("indicator")
 const split = document.getElementsByClassName("split")
 
-document.querySelectorAll(".btn").forEach(function callback(item, i) {
+document.querySelectorAll(".btn").forEach((item, i) => {
 	item.addEventListener("click", () => {
 		des[i].classList.toggle("active")
 		indicator[i].classList.toggle("active")
