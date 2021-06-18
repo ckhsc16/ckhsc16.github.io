@@ -528,10 +528,11 @@ h1 a:visited {
 }
 
 .btn {
-	width: fit-content;
+	width: max-content;
 	padding: 0.4rem;
 	margin: 1rem auto;
 	background-color: var(--clr-primary-400);
+	border-radius: 0.4rem;
 }
 
 .btn:hover {
