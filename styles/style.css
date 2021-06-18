@@ -286,6 +286,7 @@ nav {
 	background-color: transparent;
 	letter-spacing: 4px;
 	text-align: center;
+	border-radius: 3px;
 }
 
 .scroll-bar a:hover {
