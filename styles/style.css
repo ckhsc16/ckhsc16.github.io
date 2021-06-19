@@ -3,6 +3,7 @@
 :root {
 	--clr-primary-500: #333333;
 	--clr-primary-400: #545454;
+	--clr-primary-350: #666666;
 	--clr-primary-300: #999999;
 	--clr-primary-100: #fff;
 	--clr-accent-400: #1e6c8e;
@@ -534,10 +535,12 @@ h1 a:visited {
 	margin: 1rem auto;
 	background-color: var(--clr-primary-400);
 	border-radius: 0.4rem;
+	transition: background-color 0.2s ease;
 }
 
 .btn:hover {
 	cursor: pointer;
+	background-color: var(--clr-primary-350);
 }
 
 .btn p {
