@@ -512,30 +512,6 @@ h1 a:visited {
     .container {
         padding-right: 0;
     }
-    #A2 .container-right p,
-    #C2 .container-right p,
-    #C3 .container-right p,
-    #D4 .container-right p {
-        padding-top: 0;
-        padding-bottom: 1rem;
-    }
-}
-
-@media (max-width: 1250px) {
-    #A2 .container-right p,
-    #C2 .container-right p,
-    #C3 .container-right p,
-    #D4 .container-right p {
-        padding-top: 9%;
-        padding-bottom: 9%;
-    }
-}
-
-@media (max-width: 1140px) {
-    #D4 .container-right p {
-        padding-top: 15%;
-        padding-bottom: 15%;
-    }
 }
 
 .container-left {
@@ -658,6 +634,33 @@ h1 a:visited {
     }
     .container-right p {
         font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 1000px) {
+    #A2 .container-right p,
+    #C2 .container-right p,
+    #C3 .container-right p,
+    #D4 .container-right p {
+        padding-top: 0 !important;
+        padding-bottom: 1rem !important;
+    }
+}
+
+@media (max-width: 1250px) {
+    #A2 .container-right p,
+    #C2 .container-right p,
+    #C3 .container-right p,
+    #D4 .container-right p {
+        padding-top: 9%;
+        padding-bottom: 9%;
+    }
+}
+
+@media (max-width: 1140px) {
+    #D4 .container-right p {
+        padding-top: 15%;
+        padding-bottom: 15%;
     }
 }
 
