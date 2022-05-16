@@ -7,6 +7,7 @@
     --clr-primary-300: #999999;
     --clr-primary-100: #fff;
     --clr-accent-400: #1e6c8e;
+    --clr-theme-500: #dbb255;
 }
 
 * {
@@ -357,10 +358,22 @@ nav {
     margin: 0 auto;
 }
 
-header img {
+header {
     width: 100%;
+    display: flex;
+    vertical-align: middle;
     padding: 0 8vw;
     padding-top: calc(10vh + 89px);
+}
+
+@media (max-width: 1000px) {
+    header {
+        flex-direction: column;
+    }
+}
+
+header img {
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -370,11 +383,96 @@ header img {
     }
 }
 
-@media (min-width: 1500px) {
+@media (max-width: 1000px) {
     header img {
-        padding-left: 120px;
-        padding-right: 120px;
+        width: 100%;
     }
+}
+
+.cta {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+@media (max-width: 1000px) {
+    .cta {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        width: 100%;
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 550px) {
+    .cta {
+        flex-direction: column;
+    }
+}
+
+.cta a {
+    text-decoration: none;
+}
+
+.cta a:hover {
+    cursor: auto;
+}
+
+.cta h3 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+@media (max-width: 1000px) {
+    .cta h3 {
+        margin-bottom: 0;
+        font-size: 1.75rem;
+        margin-right: 2rem;
+    }
+}
+
+@media (max-width: 550px) {
+    .cta h3 {
+        margin-bottom: 1rem;
+        margin-right: 0;
+    }
+}
+
+.cta-btn {
+    width: 100%;
+    padding: 0.8rem 1.5rem;
+    margin: 1rem auto;
+    background-color: var(--clr-theme-500);
+    border-radius: 0.4rem;
+    transition: background-color 0.2s ease;
+    transition: outline 0.2s ease;
+    transition: color 0.2s ease;
+    color: var(--clr-primary-100);
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+@media (max-width: 1000px) {
+    .cta a {
+        margin-left: 1rem;
+    }
+}
+
+@media (max-width: 550px) {
+    .cta a {
+        margin-left: 0;
+    }
+}
+
+.cta-btn:hover {
+    cursor: pointer;
+    background-color: var(--clr-primary-100);
+    color: var(--clr-theme-500);
+    outline: 3px var(--clr-theme-500) solid;
 }
 
 .anchor {
