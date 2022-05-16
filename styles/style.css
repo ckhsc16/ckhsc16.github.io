@@ -469,7 +469,8 @@ header img {
     }
 }
 
-.cta-btn:hover {
+.cta-btn:hover,
+.cta-btn:focus {
     cursor: pointer;
     background-color: var(--clr-primary-100);
     color: var(--clr-theme-500);
