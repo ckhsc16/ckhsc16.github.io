@@ -431,7 +431,7 @@ header img {
 .cta h3 {
     margin-bottom: 1rem;
     font-size: 1.5rem;
-    text-align: center;
+    text-align: left;
     transition: all 0.2s ease;
 }
 
@@ -475,6 +475,27 @@ header img {
     color: var(--clr-theme-500);
     /* outline: 3px var(--clr-theme-500) solid; */
     box-shadow: 0 0 0 3px var(--clr-theme-500);
+}
+
+.cta img {
+    width: 50px;
+    height: 50px;
+    margin: 0 1.5rem;
+    transition: all 0.2s ease;
+    filter: invert(91%) sepia(19%) saturate(1620%) hue-rotate(330deg)
+        brightness(91%) contrast(87%);
+}
+
+@media (max-width: 550px) {
+    .cta img {
+        margin: 0 1rem;
+    }
+}
+
+@media (max-width: 420px) {
+    .cta img {
+        display: none;
+    }
 }
 
 .anchor {
