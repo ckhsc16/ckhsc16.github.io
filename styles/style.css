@@ -366,6 +366,12 @@ header {
     padding-top: calc(10vh + 89px);
 }
 
+@media (max-width: 768px) {
+    header {
+        padding: calc(17.5vh + 89px) 0 0 0;
+    }
+}
+
 @media (max-width: 1000px) {
     header {
         flex-direction: column;
@@ -375,12 +381,6 @@ header {
 header img {
     width: 80%;
     margin: 0 auto;
-}
-
-@media (max-width: 768px) {
-    header img {
-        padding: calc(17.5vh + 89px) 0 0 0;
-    }
 }
 
 @media (max-width: 1000px) {
@@ -396,6 +396,7 @@ header img {
     justify-content: center;
     align-items: center;
     margin: auto;
+    transition: all 0.2s ease;
 }
 
 @media (max-width: 1000px) {
@@ -409,7 +410,7 @@ header img {
 
 @media (max-width: 550px) {
     .cta {
-        flex-direction: column;
+        padding-bottom: 0;
     }
 }
 
@@ -421,10 +422,17 @@ header img {
     cursor: auto;
 }
 
+@media (max-width: 1000px) {
+    .cta a {
+        margin-left: 1rem;
+    }
+}
+
 .cta h3 {
     margin-bottom: 1rem;
     font-size: 1.5rem;
     text-align: center;
+    transition: all 0.2s ease;
 }
 
 @media (max-width: 1000px) {
@@ -437,7 +445,6 @@ header img {
 
 @media (max-width: 550px) {
     .cta h3 {
-        margin-bottom: 1rem;
         margin-right: 0;
     }
 }
@@ -448,23 +455,17 @@ header img {
     margin: 1rem auto;
     background-color: var(--clr-theme-500);
     border-radius: 0.4rem;
-    transition: background-color 0.2s ease;
-    transition: outline 0.2s ease;
-    transition: color 0.2s ease;
+    transition: all 0.2s ease;
     color: var(--clr-primary-100);
     font-size: 1.2rem;
     text-align: center;
 }
 
-@media (max-width: 1000px) {
-    .cta a {
-        margin-left: 1rem;
-    }
-}
-
 @media (max-width: 550px) {
-    .cta a {
-        margin-left: 0;
+    .cta-btn {
+        width: 80px;
+        padding: 0.6rem 1rem;
+        font-weight: 500;
     }
 }
 
@@ -472,7 +473,8 @@ header img {
     cursor: pointer;
     background-color: var(--clr-primary-100);
     color: var(--clr-theme-500);
-    outline: 3px var(--clr-theme-500) solid;
+    /* outline: 3px var(--clr-theme-500) solid; */
+    box-shadow: 0 0 0 3px var(--clr-theme-500);
 }
 
 .anchor {
