@@ -894,7 +894,7 @@ footer {
     justify-content: space-between;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     .footer-content > div {
         flex-direction: column;
     }
@@ -923,7 +923,7 @@ footer {
     align-items: flex-end;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     .credit {
         padding-top: 1rem;
         width: 100%;
