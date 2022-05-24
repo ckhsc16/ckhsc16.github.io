@@ -900,20 +900,20 @@ footer {
     }
 }
 
-.social-media {
+.social {
     justify-content: center;
     flex-direction: row;
     align-items: center;
 }
 
-.social-media svg {
+.social svg {
     color: var(--clr-primary-350);
     margin: 0 0.5rem;
     width: clamp(1rem, 2vw, 1.25rem);
     height: clamp(1rem, 2vw, 1.25rem);
 }
 
-.social-media svg:hover {
+.social svg:hover {
     color: var(--clr-theme-500);
 }
 
