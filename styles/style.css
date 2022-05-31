@@ -337,7 +337,7 @@ nav {
         left: 0px;
         width: 100%;
         transform: translateY(0);
-        background-color: var(--clr-primary-400);
+        background-color: var(--clr-primary-200);
     }
     .scroll-bar ul {
         display: flex;
@@ -347,16 +347,16 @@ nav {
     .scroll-bar a {
         font-size: 1.2rem;
         writing-mode: horizontal-tb;
-        color: var(--clr-primary-100);
+        color: var(--clr-primary-400);
         padding-bottom: 0.3rem;
         margin: 0.8rem 0.5rem;
     }
     .scroll-bar a:hover {
-        color: var(--clr-primary-100);
+        color: var(--clr-primary-500);
     }
 
     .scroll-bar a.active {
-        color: var(--clr-primary-100);
+        color: var(--clr-primary-500);
         font-weight: 700;
     }
 }
