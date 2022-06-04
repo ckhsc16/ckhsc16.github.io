@@ -333,7 +333,7 @@ nav {
 @media (max-width: 768px) {
     .scroll-bar {
         height: fit-content;
-        top: 79px;
+        top: 77px;
         left: 0px;
         width: 100%;
         transform: translateY(0);
@@ -363,7 +363,7 @@ nav {
 
 @media (max-width: 420px) {
     .scroll-bar {
-        top: 62px;
+        top: 60px;
     }
     .scroll-bar a {
         font-size: 1rem;
@@ -373,7 +373,7 @@ nav {
 
 @media (max-width: 325px) {
     .scroll-bar {
-        top: 55px;
+        top: 53px;
     }
     .scroll-bar a {
         font-size: 0.7rem;
